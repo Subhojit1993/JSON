@@ -1,0 +1,22 @@
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="main.js"></script>
+<body>
+
+<div ng-app="myApp" ng-controller="myCtrl">
+<div ng-repeat="it in info">
+	<p>
+	<b>Author</b> {{it.author}}
+	<br>
+	<b>Content</b> {{it.content}}
+	<br>
+	<b>ID</b> {{it.id}}
+	<br>
+	<b>Title</b>{{it.title}}
+	<br>
+	<b>Likes count</b> {{it.likes_count}}
+	</p>	
+</div>
+</div>
+</body>
+</html>
